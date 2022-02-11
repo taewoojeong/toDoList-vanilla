@@ -1,0 +1,88 @@
+body {
+	text-align: center;
+	color: white;
+	text-shadow: 2px 2px 10px black;
+}
+.hidden {
+	display: none;
+}
+img {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	animation: fadeIn 0.5s linear;
+}
+#clock {
+	font-size: 10vw;
+	margin-top: 20vw;
+	margin-bottom: 5vw;
+}
+#weather {
+	position: fixed;
+	top: 10px;
+	right: 10px;
+	font-size: 1.5vw;
+}
+#quote {
+	position: absolute;
+	font-family: 'Nanum Pen Script', serif;
+	bottom: 0;
+	left: 1;
+}
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+#todo-input {
+	font-size: 15px;
+	background-color: transparent;
+	border: none;
+	color: white;
+	text-shadow: 2px 2px 10px black;
+	width: 200px;
+}
+#login-form input {
+	text-decoration: underline;
+	background-color: transparent;
+	border: none;
+	color: white;
+	font-size: 30px;
+	width: 280px;
+	text-shadow: 2px 2px 10px black;
+}
+#todo-input::placeholder,
+#login-form input::placeholder {
+	color: white;
+	text-decoration: underline;
+	text-align: center;
+}
+#todo-input:focus,
+#id-form:focus {
+	outline: none;
+}
+#todo-List {
+	list-style: none;
+	font-weight: bold;
+}
+#weather span {
+	text-align: right;
+}
+#todo-list {
+	list-style: none;
+	font-weight: bold;
+}
+button {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	background-color: transparent;
+	border: 0;
+	outline: 0;
+}
