@@ -1,3 +1,3 @@
 # toDoList-vanilla
-toDoList made with VanillaJS 
+toDoList made with VanillaJS
  
